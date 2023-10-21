@@ -1,0 +1,87 @@
+.form{
+width: 100%;
+min-height: 30px;
+margin: 0 auto;
+
+}
+.input{
+min-height: 30px;
+width: 70%;
+height: 100%;
+outline: none;
+padding: 20px;
+border-radius: 10px;
+border:none;
+margin-right: 10px;
+font-size: 18px;
+}
+.AddButton{
+width: 18%;
+min-height: 30px;
+padding: 20px;
+border-radius: 10px;
+border:none;
+background: #fff;
+font-size: 18px;
+}
+.todos-list{
+margin-top: 20px;
+background:#d53333b2;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 20px;
+box-shadow: 20px 16px 18px 7px rgba(73, 83, 90, 0.2);
+padding: 20px;
+}
+.todos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    border:0.5px solid #dbb4b4;
+    padding: 5px;
+    border-radius: 10px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+   border-radius: 50%;
+   cursor: pointer;
+   margin-right: 10px;
+}
+.delete-btn{
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: rgba(41, 19, 19, 0.428);
+    color :#fff;
+    border:none;
+}
+.label>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label{
+    width: 100%;
+    margin-bottom:-10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.totalComplate{
+    padding: 10px;
+
+}
+.totalComplateh4{
+    font-size: 20px;
+}
+
+.complete {
+    text-decoration: line-through;
+  }
